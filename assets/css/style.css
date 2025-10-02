@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #0b0f19; /* Qaranlıq fon */
+  }
+  
+  .naviqasiya {
+    background-color: #000000 !important; /* Navbar qaranlıq */
+    padding: 40px 90px;
+  }
+  
+  /* Marka (logo və ad) */
+  .marka {
+    color: #3d6dd4 !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+  
+  /* Logo şəkli */
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+  }
+  
+  /* Naviqasiya menyu */
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 10;
+    padding: 0;
+    flex-grow: 1;
+    margin-right: 350px;
+  }
+  
+  .element {}
+  
+  .link {
+    color: white !important;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #3d6dd4 !important;
+  }
+  
+  /* Daxil ol düyməsi */
+  .duyme {
+    background-color: #3d6dd4;
+    color: white;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 16px 16px;
+    border: none;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: left 400px;
+    transition: background-color 0.3s ease;
+    margin-right: 60px;
+  }
+  
+  .duyme:hover {
+    background-color: #2a52a0;
+  }
+  
+  /* Toggle düyməsinin rəngi */
+  .toggle-btn {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+  }
+  
+  
+  

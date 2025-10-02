@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Root dəyişənlər */
+:root {
+    --headerdaki-qara-reng: #000;
+    --headerin-yuxari-rengi: #0A1220;
+    --headerin-asagi-rengi: #0B1420;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container{
+padding-left: 50px;
+}
+/* Font class-lar */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+/* Header */
+.header {
+    display: flex;
+  
+    align-items: center;
+    padding: 10px 30px;
+    background: linear-gradient(to bottom, var(--headerin-yuxari-rengi), var(--headerin-asagi-rengi));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Logo ilə menyu arasındakı məsafə */
+  }
+  
+  .header img {
+    width: 160px;
+    height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #4a90e2;
+  }
+  
+  .header-right button {
+    background: #3A68B8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 112px;
+    height: 52px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Container padding */
+  .container {
+    padding-top: 100px;
+  }
+  
+
+/* Responsive */
+@media (min-width: 768px) {
+    .nav-links {
+        gap: 15px;
+    }
+
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 991px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
