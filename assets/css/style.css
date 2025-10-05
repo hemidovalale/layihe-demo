@@ -10,78 +10,71 @@
 }
 
 
-body {
-    background-color: #0b0f19; /* Qaranlıq fon */
-  }
-  
-  .naviqasiya {
-    background-color: #000000 !important; /* Navbar qaranlıq */
-    padding: 40px 90px;
-  }
-  
-  /* Marka (logo və ad) */
-  .marka {
-    color: #3d6dd4 !important;
-    font-weight: 600;
-    font-size: 1.25rem;
-    text-decoration: none;
-  }
-  
-  /* Logo şəkli */
+header {
+  background:linear-gradient(to bottom, #0A111F,#0B111f);
+}
+
+.header > .logo {
+  width:150px
+}
   
 
-  
-  /* Naviqasiya menyu */
-  .menu {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin: 10;
-    padding: 0;
-    flex-grow: 1;
-    margin-right: 350px;
-  }
-  
-  .element {}
-  
-  .link {
-    color: white !important;
-    font-weight: 500;
-    text-decoration: none;
-    padding: 6px 10px;
-    transition: color 0.3s ease;
-  }
-  
-  .link:hover {
-    color: #3d6dd4 !important;
-  }
-  
-  /* Daxil ol düyməsi */
-  .duyme {
-    background-color: #3d6dd4;
+.introduction {
+    background: linear-gradient(to right, #08101D, #09111E);
     color: white;
-    font-weight: 500;
-    border-radius: 6px;
-    padding: 16px 16px;
-    border: none;
-    text-decoration: none;
-    white-space: nowrap;
-    margin: left 400px;
-    transition: background-color 0.3s ease;
-    margin-right: 60px;
-  }
   
-  .duyme:hover {
-    background-color: #2a52a0;
-  }
+}
+
+.introduction h6 {
+   color:#3A68B8;
+   text-transform:uppercase;
+}
   
-  /* Toggle düyməsinin rəngi */
-  .toggle-btn {
-    border: none;
-    background: transparent;
-    margin-left: 10px;
-  }
-  
-  
-  
+
+
+
+.introduction .intro-left h1 {
+  margin: 10px 0 40px;
+}
+
+.introduction .intro-left article {
+  margin: 40px 0 30px;
+}
+
+
+.introduction .intro-left button {
+ background-color: #3A68B8;
+ color:#fff;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+}
+
+.play-icon {
+  width:13px;
+  margin-right:8px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.buttons button:nth-child(2) {
+  display: inline-flex;
+
+  align-items: center;
+}
+
+@media(min-width:768px) {
+
+
+  .introduction .intro-left {
+  /* padding-top: 70px; */
+}
+
+.header .logo {
+  width:300px
+}
+
+}
